@@ -1,0 +1,55 @@
+# Created by https://www.toptal.com/developers/gitignore/api/kicad
+# Edit at https://www.toptal.com/developers/gitignore?templates=kicad
+
+### KiCad ###
+# For PCBs designed using KiCad: https://www.kicad.org/
+# Format documentation: https://kicad.org/help/file-formats/
+
+# Temporary files
+*.000
+*.bak
+*.bck
+*.kicad_pcb-bak
+*.kicad_sch-bak
+*-backups
+*.kicad_prl
+*.sch-bak
+*~
+_autosave-*
+*.tmp
+*-save.pro
+*-save.kicad_pcb
+fp-info-cache
+
+# Netlist files (exported from Eeschema)
+*.net
+
+# Autorouter files (exported from Pcbnew)
+*.dsn
+*.ses
+
+# Exported BOM files
+*.xml
+*.csv
+
+### KiCad Patch ###
+rescue-backup/
+
+*.tsv
+bom/
+
+# Gerber export output
+out/
+
+# Backups
+fairybox-backups/
+
+# Design constraints templates
+JLCPCB_settings/
+
+# Random template files
+mcp73832-2-ot.kicad_sym
+ultra_library.kicad_sym
+
+
+# End of https://www.toptal.com/developers/gitignore/api/kicad

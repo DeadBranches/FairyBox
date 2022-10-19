@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name "digikey-footprints")(type "KiCad")(uri "C:/Users/Rain/Documents/390 Kicad Thirdparty Libraries/digikey-kicad-library-master/digikey-footprints.pretty")(options "")(descr ""))
+  (lib (name "HW-107 liion charge board")(type "KiCad")(uri "C:/Users/Rain/Documents/390 Kicad Thirdparty Libraries/HW-107 liion charge board")(options "")(descr ""))
+)
