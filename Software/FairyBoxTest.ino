@@ -1,4 +1,7 @@
-// Test.
+// Test. #2. Modified file on remote repo to see what happens when 
+// a remotely modified file it is pulled to the local repo when the local
+// file is a symlink to another directory.
+//
 // AVRDUDE fuse settings string:
 // avrdude -p t85 -c avrispmkii -B 4 -P usb -U lfuse:w:0xe2:m -U hfuse:w:0xdf:m -U efuse:w:0xff:m
 // By the time most users see this board, these settings will already
