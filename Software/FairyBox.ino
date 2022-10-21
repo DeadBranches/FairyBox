@@ -1,4 +1,4 @@
-// AVRDUDE fuse settings string:
+// AVRDUDE fuse settings string: ---mod on deadbranches/FairyBox
 // avrdude -p t85 -c avrispmkii -B 4 -P usb -U lfuse:w:0xe2:m -U hfuse:w:0xdf:m -U efuse:w:0xff:m
 // By the time most users see this board, these settings will already
 //  have been applied. However, when programming from a blank ATTiny, it
@@ -104,7 +104,7 @@ void setup() {
   pinMode(LED3, OUTPUT);
   pinMode(LED4, OUTPUT);
   startTime = micros();
-
+}
 
 void loop() {
   long currTime = micros();
