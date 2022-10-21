@@ -1,6 +1,16 @@
 // Test. #2. Modified file on remote repo to see what happens when 
 // a remotely modified file it is pulled to the local repo when the local
 // file is a symlink to another directory.
+//    F:\R\Repository - FairyBox\FairyBox\Software>mklink /H FairyBoxTest.ino "F:\C\Code - Arduino Sketchbooks\FairyBox - branch_main\FairyBox - branch_main.ino"
+//    Hardlink created for FairyBoxTest.ino <<===>> F:\C\Code - Arduino Sketchbooks\FairyBox - branch_main\FairyBox - branch_main.ino
+// Result: Pulling changes from a remote repo when the local file is a
+// symlink to another directory destroys the link 
+//
+// Test. #3. File in arduinoIDE sketch folder is a hardlink to local git repo version.
+//    F:\C\Code - Arduino Sketchbooks\FairyBox - branch_main>mklink /H "FairyBox - branch_main.ino" "F:\R\Repository - FairyBox\FairyBox\Software\FairyBoxTest.ino"
+//    Hardlink created for FairyBox - branch_main.ino <<===>> F:\R\Repository - FairyBox\FairyBox\Software\FairyBoxTest.ino
+// With ArduinoIDE, editing and saving "FairyBox - branch_main.ino" to see if git picks up the changes.
+
 //
 // AVRDUDE fuse settings string:
 // avrdude -p t85 -c avrispmkii -B 4 -P usb -U lfuse:w:0xe2:m -U hfuse:w:0xdf:m -U efuse:w:0xff:m
