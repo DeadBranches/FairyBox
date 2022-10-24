@@ -378,7 +378,7 @@
         "name": "Default",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.2,
+        "track_width": 0.1524,
         "via_diameter": 0.9,
         "via_drill": 0.35,
         "wire_width": 6.0
@@ -394,11 +394,12 @@
         "microvia_drill": 0.3302,
         "name": "GND",
         "nets": [
+          "/CHARGE BOARD OUT B-",
           "GND"
         ],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.45,
+        "track_width": 0.508,
         "via_diameter": 0.9,
         "via_drill": 0.35,
         "wire_width": 6.0
@@ -415,6 +416,7 @@
         "name": "Power",
         "nets": [
           "+5V",
+          "/CHARGE BOARD OUT B+",
           "/D18_AN",
           "/D19_AN",
           "/D1_AN",
@@ -422,13 +424,14 @@
           "/D21_AN",
           "/D22_AN",
           "/D23_AN",
+          "/D24_AN",
+          "/D25_AN",
           "/D2_AN",
           "/D3_AN",
           "/D5_AN",
           "/D7_AN",
           "/Q10_COL",
           "/Q2_COL",
-          "/Q3_COL",
           "/Q4_COL",
           "/Q5_COL",
           "/Q6_COL",
@@ -437,11 +440,11 @@
           "/Q9_COL"
         ],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "schematic_color": "rgb(159, 6, 0)",
-        "track_width": 0.6,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.508,
         "via_diameter": 0.95,
         "via_drill": 0.4,
-        "wire_width": 8.661417322834646
+        "wire_width": 6.0
       },
       {
         "bus_width": 12.0,
@@ -456,7 +459,7 @@
         "nets": [],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.15,
+        "track_width": 0.1524,
         "via_diameter": 0.9,
         "via_drill": 0.35,
         "wire_width": 6.0
@@ -472,13 +475,11 @@
         "microvia_drill": 0.3302,
         "name": "Signal",
         "nets": [
-          "/Q1_BASE",
-          "/Q2_BASE",
-          "/Q5_BASE"
+          "/Q1_BASE"
         ],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "schematic_color": "rgb(35, 77, 185)",
-        "track_width": 0.15,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.1524,
         "via_diameter": 0.95,
         "via_drill": 0.35,
         "wire_width": 6.0
