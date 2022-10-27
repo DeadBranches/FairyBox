@@ -394,7 +394,6 @@
         "microvia_drill": 0.3302,
         "name": "GND",
         "nets": [
-          "/CHARGE BOARD OUT B-",
           "GND"
         ],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
@@ -416,7 +415,9 @@
         "name": "Power",
         "nets": [
           "+5V",
+          "/CC4_AN",
           "/CHARGE BOARD OUT B+",
+          "/CHARGE BOARD OUT B-",
           "/D18_AN",
           "/D19_AN",
           "/D1_AN",
@@ -429,7 +430,11 @@
           "/D2_AN",
           "/D3_AN",
           "/D5_AN",
+          "/D6_AN",
           "/D7_AN",
+          "/D9_AN",
+          "/LI-ION_NEG",
+          "/LI-ION_POS",
           "/Q10_COL",
           "/Q2_COL",
           "/Q4_COL",
@@ -437,7 +442,9 @@
           "/Q6_COL",
           "/Q7_COL",
           "/Q8_COL",
-          "/Q9_COL"
+          "/Q9_COL",
+          "/R18_AN",
+          "Net-(D4-Pad1)"
         ],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
@@ -475,7 +482,19 @@
         "microvia_drill": 0.3302,
         "name": "Signal",
         "nets": [
-          "/Q1_BASE"
+          "/MCU GPIO0 MOSI",
+          "/MCU GPIO1 MISO",
+          "/MCU GPIO2 SCK",
+          "/MCU GPIO3",
+          "/MCU GPIO4",
+          "/MCU RST",
+          "/PA0",
+          "/PA11",
+          "/PA12",
+          "/PB0",
+          "/PB1",
+          "/Q1_BASE",
+          "/REED_RETURN"
         ],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
