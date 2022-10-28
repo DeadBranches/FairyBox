@@ -121,8 +121,10 @@
       "track_widths": [
         0.0,
         0.15,
+        0.1524,
         0.2,
         0.4,
+        0.508,
         0.6,
         0.9
       ],
@@ -392,31 +394,11 @@
         "line_style": 0,
         "microvia_diameter": 0.6858,
         "microvia_drill": 0.3302,
-        "name": "GND",
-        "nets": [
-          "/CHARGE BOARD OUT B-",
-          "GND"
-        ],
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.508,
-        "via_diameter": 0.9,
-        "via_drill": 0.35,
-        "wire_width": 6.0
-      },
-      {
-        "bus_width": 12.0,
-        "clearance": 0.135,
-        "diff_pair_gap": 0.254,
-        "diff_pair_via_gap": 0.25,
-        "diff_pair_width": 0.1524,
-        "line_style": 0,
-        "microvia_diameter": 0.6858,
-        "microvia_drill": 0.3302,
         "name": "Power",
         "nets": [
           "+5V",
           "/CHARGE BOARD OUT B+",
+          "/CHARGE BOARD OUT B-",
           "/D18_AN",
           "/D19_AN",
           "/D1_AN",
@@ -429,7 +411,11 @@
           "/D2_AN",
           "/D3_AN",
           "/D5_AN",
+          "/D6_AN",
           "/D7_AN",
+          "/D9_AN",
+          "/LI-ION_NEG",
+          "/LI-ION_POS",
           "/Q10_COL",
           "/Q2_COL",
           "/Q4_COL",
@@ -437,7 +423,8 @@
           "/Q6_COL",
           "/Q7_COL",
           "/Q8_COL",
-          "/Q9_COL"
+          "/Q9_COL",
+          "GND"
         ],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
@@ -475,7 +462,17 @@
         "microvia_drill": 0.3302,
         "name": "Signal",
         "nets": [
-          "/Q1_BASE"
+          "/5",
+          "/6",
+          "/7",
+          "/MCU GPIO0 MOSI",
+          "/MCU GPIO1 MISO",
+          "/MCU GPIO2 SCK",
+          "/MCU GPIO3",
+          "/MCU GPIO4",
+          "/MCU RST",
+          "/Q1_BASE",
+          "/REED_RETURN"
         ],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
