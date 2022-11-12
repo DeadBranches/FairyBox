@@ -33,9 +33,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.75,
+          "drill": 0.0,
           "height": 1.75,
-          "width": 1.2
+          "width": 1.125
         },
         "silk_line_width": 0.153,
         "silk_text_italic": false,
@@ -55,7 +55,9 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "courtyards_overlap|59030001|51497401|9a8f8294-9016-4641-ac60-0aeb08b21a4b|b58a7b9c-ad17-45e3-b88e-7f13c1337f60"
+      ],
       "meta": {
         "version": 2
       },
@@ -397,6 +399,7 @@
         "name": "Power",
         "nets": [
           "+5V",
+          "/+5V B-LED",
           "/CHARGE BOARD OUT B+",
           "/CHARGE BOARD OUT B-",
           "/D18_AN",
@@ -414,9 +417,12 @@
           "/D6_AN",
           "/D7_AN",
           "/D9_AN",
+          "/LBAT_NOT",
           "/LI-ION_NEG",
           "/LI-ION_POS",
           "/Q10_COL",
+          "/Q15_COL",
+          "/Q1_GATE",
           "/Q2_COL",
           "/Q4_COL",
           "/Q5_COL",
@@ -462,16 +468,15 @@
         "microvia_drill": 0.3302,
         "name": "Signal",
         "nets": [
-          "/5",
-          "/6",
-          "/7",
           "/MCU GPIO0 MOSI",
           "/MCU GPIO1 MISO",
           "/MCU GPIO2 SCK",
           "/MCU GPIO3",
           "/MCU GPIO4",
           "/MCU RST",
-          "/REED_RETURN"
+          "/PB0 PHY",
+          "/PB1 PHY",
+          "/PB2 PHY"
         ],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
